@@ -10,7 +10,7 @@ codesg segment
     mov cx,8
     mov ah,0
 
-    s: mov al,ds:[bx]
+    s: mov al,ds:[bx + 40H]
     add dx,ax
     add bx,2
 
